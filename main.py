@@ -1,3 +1,11 @@
-# change it to print your name
+class Person:
+  def __init__(self, name, age, adress):
+    self.name = name
+    self.age = age
+    self.adress = adress
 
-print("Hello, I am Piotr Brudny")
+vlad = Person('Vlad', 18, 'Grojecka')
+
+print(vlad.name)
+print(vlad.age)
+print(vlad.adress)
